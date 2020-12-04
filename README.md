@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is self-describing, or opinionated. Essentially, the name of the element explains what role it plays on the page. If you were to read a semantic element out loud to someone who isn't looking at the page, they'd likely be able to identify what it is. For instance, a blind person can hear the <section>, <footer>, <header> <p> elements as exactly what they contribute to the page structure - <section> is a section, <footer> is a footer, etc.
+
+Semantic HTML describes itself in order to contribute to the clean organization of the whole page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    a.) Block level elements are greedy about the space they occupy, where inline elements are not. For instance, <h1> by default takes up a single 'block' and forces a new-line. A good way to think about it is that the elements stack like a pile of building blocks, and don't change shape when stacked differently. Inline elements, however, will only take up the space they need to occupy - e.g. a <span> in a paragraph won't automatically cause a line-break for its content.
+
+    b.) Block level elements respect all margins, whereas inline elements will only respect the right-and-left margins and padding. How fun.
 
 3. What are the 4 areas of the box model?
 
+    Margin Border Padding Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    Cross-axis. Justify-Content works on the main-axis.
 
 5. Explain why git is valuable to a team of developers.
+    You can collaborate easily; you can fork your own copies of projects to do some dev work without affecting the main project; you can branch off your main project to test new code, debug, and try new features; you can control versions and see who made what changes; you can rollback to an older version if something breaks; you can make the current version accessible to all; you can help teams recreate development envs; you can show your friends your fun commit messages; etc etc etc
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
