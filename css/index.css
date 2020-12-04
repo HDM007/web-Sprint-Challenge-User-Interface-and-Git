@@ -95,6 +95,11 @@ p {
     margin-bottom: 10px;
 }
 
+.collab-container{
+    margin-top: 20px 0px;
+    padding: 20px 10px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
