@@ -74,7 +74,7 @@ p {
 .navbar{
     display: flex;
     margin: 10px 0px;
-    padding: 40px 0px;
+    padding: 30px 0px;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -86,7 +86,13 @@ p {
 
 .hero-image{
     width: 800px;
-    margin: 10px;
+    margin: 10px 1px;
+}
+
+.about-container{
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
 }
 
 .container {
