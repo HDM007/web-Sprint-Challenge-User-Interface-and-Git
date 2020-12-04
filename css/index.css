@@ -47,9 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+
 * {
     box-sizing: border-box;
 }
+
+/* Page styling starts below */
 
 html, body {
     height: 100%;
@@ -64,6 +67,26 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/* My styling response has been added in this top section */
+
+.navbar{
+    display: flex;
+    margin: 10px 0px;
+    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image{
+    width: 800px;
+    margin: 10px;
 }
 
 .container {
@@ -82,7 +105,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
 }
 
 .middle-content {
@@ -110,6 +133,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color:hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
