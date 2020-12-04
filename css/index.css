@@ -100,6 +100,19 @@ p {
     padding: 20px 10px;
 }
 
+.card-container{
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    border-bottom: 1px dashed black;
+    width: 400px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
